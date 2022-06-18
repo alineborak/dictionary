@@ -1,0 +1,33 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(4px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.App-logo {
+  max-width: 180px;
+  max-height: 180px;
+  display: block;
+  margin: 0 auto;
+  pointer-events: none;
+  height: 40vmin;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
