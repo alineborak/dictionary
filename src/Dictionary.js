@@ -12,7 +12,7 @@ function Dictionary() {
     function search(event) {
         event.preventDefault();
         alert(`Searching for ${keyword}`);
-
+        //api documentation: https://dictionaryapi.dev/
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
         axios.get(apiUrl).then(handleResponse);
     }
