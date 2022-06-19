@@ -14,3 +14,7 @@
     margin: 0 auto;
     display: block;
 }
+
+p {
+    font-size: calc(10px + 2vmin);
+}
