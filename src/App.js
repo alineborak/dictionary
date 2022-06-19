@@ -10,6 +10,7 @@ function App() {
           <img src={fox} className="App-logo"
             alt="fox" />
         </header>
+        <h1>The wise fox dictionary</h1>
         <div>
           <Dictionary />
         </div>
