@@ -14,7 +14,7 @@ function App() {
         <div>
           <Dictionary />
         </div>
-        <small>
+        <small className='Footer'>
           Open-source code available on{" "}
           <a
             href="https://github.com/alineborak/weather-react"
