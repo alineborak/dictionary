@@ -32,7 +32,6 @@ function Dictionary() {
                     type="search"
                     onChange={handleKeywordChange}
                     placeholder="Enter a word..."
-                    autoFocus="on"
                     autoComplete="off" />
                 <input
                     id="search-btn"
