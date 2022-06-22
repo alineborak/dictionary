@@ -1,31 +1,24 @@
-#search-input {
-    font-size: 25px;
-    max-width: 500px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 35px;
-    width: 300px;
+.Dictionary input {
+    border-radius: 6px;
+    font-size: 16px;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-/* @media only screen and (max-width: 600px) {
-    #search-input {
-        margin-bottom: 20px;
-        margin-top: 20px;
-        height: 35px;
-        width: 300px;
-        font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 6px;
+    width: 30%;
     }
-  } */
 
 #search-btn {
     max-width: 200px;
     margin: 0 auto;
     display: block;
     margin-bottom: 30px;
+}
+
+
+#search-btn:hover {
+    font-weight: bold;
 }
 
 p {

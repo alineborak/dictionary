@@ -25,20 +25,22 @@ function Dictionary() {
 
     return (
         <><div className="Dictionary">
-            <form onSubmit={search}>
-                <input
-                    id="search-input"
-                    type="search"
-                    onChange={handleKeywordChange}
-                    placeholder="Enter a word..."
-                    autoComplete="off" />
-                <input
-                    id="search-btn"
-                    className="btn btn-primary w-100"
-                    type="submit"
-                    value="Search" />
-                <Results results={results} />
-            </form>
+            <section>
+                <form onSubmit={search}>
+                    <input
+                        id="search-input"
+                        type="search"
+                        onChange={handleKeywordChange}
+                        placeholder="Enter a word..."
+                        autoComplete="off" />
+                    <input
+                        id="search-btn"
+                        className="btn btn-primary w-100"
+                        type="submit"
+                        value="Search" />
+                    <Results results={results} />
+                </form>
+            </section>
         </div></>
     )
 }

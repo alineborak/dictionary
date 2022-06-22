@@ -4,15 +4,26 @@ h2 {
     text-transform: capitalize;
 }
 
-h3 {
-    font-weight: 1800;
-    margin-top: 25px;
-    text-transform: capitalize;
-}
-
 h4 {
     font-weight: bold;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
     text-transform: capitalize;
+}
+
+.Meaning {
+    text-align: left;
+}
+
+.Meaning h3 {
+    font-weight: 1800;
+    line-height: 1.5;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.Meaning .Example {
+    font-size: 12px;
+    font-style: italic;
+    opacity: 0.7;
 }
