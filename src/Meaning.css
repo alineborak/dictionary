@@ -1,4 +1,10 @@
 h2 {
+    font-weight: 2000;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+h3 {
     font-weight: 1800;
     margin-top: 25px;
     text-transform: capitalize;

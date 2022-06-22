@@ -14,7 +14,7 @@ function App() {
         <div>
           <Dictionary />
         </div>
-        <small className='Footer'>
+        <p className='Footer'>
           Open-source code available on{" "}
           <a
             href="https://github.com/alineborak/weather-react"
@@ -30,7 +30,7 @@ function App() {
           >
             Aline Bora-Kloppert
           </a>
-        </small>
+        </p>
       </div>
     </div>
   );

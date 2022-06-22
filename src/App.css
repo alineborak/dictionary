@@ -1,7 +1,8 @@
 .Footer {
+  font-size: 12px;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .App {
