@@ -1,3 +1,7 @@
 .Results h2 {
     margin-bottom: 30px;
 }
+
+.Photos img {
+    border-radius: 10px;
+}
